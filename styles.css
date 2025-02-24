@@ -16,6 +16,14 @@
   box-sizing: border-box;
 }
 
+html,body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  scroll-behavior: smooth;
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -65,11 +73,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-html,
-body {
-  scroll-behavior: smooth;
 }
 
 body {
